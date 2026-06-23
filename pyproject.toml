@@ -1,14 +1,12 @@
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
-[tool.poetry]
-name = "cache-monitor"
-version = "1.0.0"
-description = "A cache monitoring tool"
-
-[tool.poetry.dependencies]
-python = "^3.8"
-
-[tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
+[project]
+name = "axentx-product"
+version = "0.1.0"
+description = "A minimal AxentX product package with a simple greeting utility."
+authors = [{name = "AxentX Team", email = "team@axentx.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
