@@ -1,2 +1,7 @@
-# LLM Cache
-A simple cache implementation with optional disk-backed persistence.
+# llm-cache
+
+A simple cache implementation for PyTorch models.
+
+## Installation
+
+To install the package, run the following command:
